@@ -1,4 +1,3 @@
-import { background, curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { slides } from "../constants";
@@ -37,7 +36,9 @@ const Hero = () => {
     >
       <div
         className="absolute top-0 right-0 h-screen w-full bg-cover bg-right bg-no-repeat min-h-90 transition-all duration-12000 ease delay-7500 scale-100"
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        style={{
+          backgroundImage: `url(${slides[currentIndex].backgroundUrl})`,
+        }}
       ></div>
       <div className="container relative">
         <div className="relative z-1 max-w-[50rem] mr-auto text-left mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
