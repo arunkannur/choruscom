@@ -78,8 +78,10 @@ import ourteam3 from "./team/joel.webp";
 import ourteam4 from "./team/jayas.webp";
 import ourteam5 from "./team/arjun.webp";
 import ourteam6 from "./team/arunpp.webp";
-import ourteam7 from "./team/arunpp.webp";
-import ourteam8 from "./team/arunpp.webp";
+import ourteam7 from "./team/avinash.webp";
+import ourteam8 from "./team/meenu.webp";
+import ourteam9 from "./team/reshma.webp";
+import ourteam10 from "./team/asif.webp";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -159,6 +161,8 @@ export {
   ourteam6,
   ourteam7,
   ourteam8,
+  ourteam9,
+  ourteam10,
   homeSmile,
   file02,
   searchMd,

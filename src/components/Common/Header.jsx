@@ -1,11 +1,11 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { chorus } from "../assets";
-import { navigation } from "../constants";
-import Button from "./Button";
-import MenuSvg from "../assets/svg/MenuSvg";
-import { HamburgerMenu } from "./design/Header";
+import { chorus } from "../../assets";
+import { navigation } from "../../constants";
+import Button from "../Button";
+import MenuSvg from "../../assets/svg/MenuSvg";
+import { HamburgerMenu } from "../design/Header";
 import { useState } from "react";
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-transparent ${
+      className={`fixed top-0 left-0 w-full z-50 lg:bg-transparent ${
         openNavigation ? "bg-n-8" : "bg-n-8/90"
       }`}
     >

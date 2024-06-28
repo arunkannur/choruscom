@@ -5,6 +5,10 @@ import {
   ourteam4,
   ourteam5,
   ourteam6,
+  ourteam7,
+  ourteam8,
+  ourteam9,
+  ourteam10,
 } from "../assets";
 import Section from "./Section";
 
@@ -78,7 +82,7 @@ const OurTeam = () => {
             </div>
 
             <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
-              <h3 className="h5 mb-1">Jayas</h3>
+              <h3 className="h5 mb-1 font-thin">Jayas</h3>
               <p className="leading-8 text-[#6E9BFF]">Jr. Graphic Designer</p>
             </div>
           </div>
@@ -94,8 +98,8 @@ const OurTeam = () => {
             </div>
 
             <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
-              <h3 className="h5 mb-1">Jayas</h3>
-              <p className="leading-8 text-[#6E9BFF]">Jr. Graphic Designer</p>
+              <h3 className="h5 mb-1 font-thin">Arjun</h3>
+              <p className="leading-8 text-[#6E9BFF]">Graphic Designer</p>
             </div>
           </div>
 
@@ -110,15 +114,15 @@ const OurTeam = () => {
             </div>
 
             <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
-              <h3 className="h5 mb-1">Jayas</h3>
-              <p className="leading-8 text-[#6E9BFF]">Jr. Graphic Designer</p>
+              <h3 className="h5 mb-1 font-thin">Arun PP</h3>
+              <p className="leading-8 text-[#6E9BFF]">Web Developer</p>
             </div>
           </div>
 
           <div className="block relative p-0.5 md:max-w-[25rem]">
             <div className="relative z-2 flex flex-col pointer-events-none">
               <img
-                src={ourteam1}
+                src={ourteam7}
                 width={380}
                 height={362}
                 className="w-full h-full object-cover"
@@ -126,15 +130,15 @@ const OurTeam = () => {
             </div>
 
             <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
-              <h3 className="h5 mb-1">Jayas</h3>
-              <p className="leading-8 text-[#6E9BFF]">Jr. Graphic Designer</p>
+              <h3 className="h5 mb-1 font-thin">Avinash Rebello</h3>
+              <p className="leading-8 text-[#6E9BFF]">Creative Writer</p>
             </div>
           </div>
 
           <div className="block relative p-0.5 md:max-w-[25rem]">
             <div className="relative z-2 flex flex-col pointer-events-none">
               <img
-                src={ourteam1}
+                src={ourteam8}
                 width={380}
                 height={362}
                 className="w-full h-full object-cover"
@@ -142,8 +146,40 @@ const OurTeam = () => {
             </div>
 
             <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
-              <h3 className="h5 mb-1">Jayas</h3>
-              <p className="leading-8 text-[#6E9BFF]">Jr. Graphic Designer</p>
+              <h3 className="h5 mb-1 font-thin">Meenu Suzanna</h3>
+              <p className="leading-8 text-[#6E9BFF]">Brand Startegist</p>
+            </div>
+          </div>
+
+          <div className="block relative p-0.5 md:max-w-[25rem]">
+            <div className="relative z-2 flex flex-col pointer-events-none">
+              <img
+                src={ourteam9}
+                width={380}
+                height={362}
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
+              <h3 className="h5 mb-1 font-thin">Reshma M V</h3>
+              <p className="leading-8 text-[#6E9BFF]">HR + Operation Manager</p>
+            </div>
+          </div>
+
+          <div className="block relative p-0.5 md:max-w-[25rem]">
+            <div className="relative z-2 flex flex-col pointer-events-none">
+              <img
+                src={ourteam10}
+                width={380}
+                height={362}
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="flex-auto flex-wrap gap-x-2 pt-5 text-center">
+              <h3 className="h5 mb-1 font-thin">Asif</h3>
+              <p className="leading-8 text-[#6E9BFF]">Creative Writer</p>
             </div>
           </div>
         </div>
